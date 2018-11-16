@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  html,
+  body,
+  #__nuxt,
+  #__layout,
+  .main,
+  .main-container,
+  .h-100,
+  .main-aside,
+  .main-menu {
+    height: 100%;
+  }
+
+  .main-aside,
+  .main-menu__toggle{
+      position: absolute;
+  }
+
+  .main-menu__toggle{
+    z-index: 1;
+    margin-left: 0px;
+    left: 0px;
+    top: -1px;
+    width: 100%;
+  }
+
+  .main-menu{
+      padding-top: 56px;
+  }
+
+  .main-container{
+      position: relative;
+  }
+
+  .main-content{
+      padding-left: 65px;
+  }
+
+  .wrapper {
+    position: relative;
+    min-height: 100%;
+  }
+
+  .footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
