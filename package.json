@@ -6,6 +6,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "element-ui": "^2.4.10",
+    "faker": "^4.1.0",
     "nuxt": "^2.2.0"
   }
 }
