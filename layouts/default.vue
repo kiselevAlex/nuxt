@@ -1,27 +1,5 @@
 <template>
     <el-container class="main">
-        <el-header>
-            <be-header/>
-        </el-header>
-        <el-main>
-            <nuxt/>
-        </el-main>        
-        <el-footer>
-            <be-footer/>
-        </el-footer>
+        <nuxt/>
     </el-container>
 </template>
-
-<script>
-    import beFooter from './footer.vue';
-    import beHeader from './header.vue';
-    import beAside from './aside.vue';
-
-    export default {
-        components: {
-            beFooter,
-            beHeader,
-            beAside
-        }
-    }
-</script>
