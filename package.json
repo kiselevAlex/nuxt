@@ -3,8 +3,8 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt build && nuxt start",
-    "generate": "nuxt generate"
+    "start": "nuxt start",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "axios": "^0.18.0",
