@@ -45,4 +45,13 @@ body {
 
 .item__logo{
   width: 150px;
+  min-width: 150px;
+  position: relative;
+}
+
+.item__logo img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }

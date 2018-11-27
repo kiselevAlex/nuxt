@@ -1,3 +1,3 @@
-export default async function({store}){
-    await store.dispatch('raiting', (new Date()).getFullYear());
+export default async function({store, route}){
+    await store.dispatch('raiting', {year: route.params.year || (new Date()).getFullYear()});
 }
