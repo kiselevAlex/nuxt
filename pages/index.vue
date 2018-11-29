@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-full">
     <div class="raiting">
       <h1 class="raiting__title">Pейтинг франшиз 2018</h1>
       <div>
