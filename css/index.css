@@ -13,6 +13,30 @@
   font-size: 20px;
 }
 
+.f-l{
+  float: left;
+}
+
+.m-r20{
+  margin-right: 10px;
+}
+
+.t-c{
+  text-align: right;
+}
+
+.m-r20 a{
+  text-decoration: none;
+  color: #bbb;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.m-r20 a.active {
+  color: #1ea01e;
+  text-decoration: underline;
+}
+
 .w-full{
   width: 100%;
 }
